@@ -9,7 +9,7 @@ RUN \
     python3-venv \
     ffmpeg \
     git \
-    ; \
+  
     rm -rf /var/lib/apt/lists/*
 
 RUN pip3 install -U pip && pip3 install -U wheel && pip3 install -U setuptools==59.5.0
